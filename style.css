@@ -48,12 +48,13 @@ body {
 
 #main_color {
   height: 60%;
-  background-color: red;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 #second_color {
   display: flex;
   height: 40%;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .color_code {
@@ -62,12 +63,11 @@ body {
 
 #light_color {
   width: 50%;
-  background-color: blue;
+  border-right: 1px solid #e0e0e0;
 }
 
 #dark_color {
   width: 50%;
-  background-color: yellow;
 }
 
 #right_bar {

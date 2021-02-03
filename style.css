@@ -1,0 +1,135 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#header {
+  width: 100%;
+  height: 64px;
+}
+
+#header_brand {
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 64px;
+}
+
+#contents {
+  display: flex;
+}
+
+#footer {
+  padding-top: 8px;
+  text-align: center;
+}
+
+#footer p {
+  padding: 8px;
+}
+
+#left_bar {
+  width: 100%;
+  min-width: 404px;
+  border: 1px solid #e0e0e0;
+  padding: 0 24px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#color_box {
+  border: 1px solid #e0e0e0;
+  width: 400px;
+  height: 500px;
+}
+
+#main_color {
+  height: 60%;
+  background-color: red;
+}
+
+#second_color {
+  display: flex;
+  height: 40%;
+}
+
+.color_code {
+  padding: 10px;
+}
+
+#light_color {
+  width: 50%;
+  background-color: blue;
+}
+
+#dark_color {
+  width: 50%;
+  background-color: yellow;
+}
+
+#right_bar {
+  min-width: 473px;
+  max-width: 473px;
+  height: 80vh;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#palette_brightness_wrap {
+  display: flex;
+  width: 457px;
+}
+
+#palette_brightness {
+  height: 34px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#palette_brightness > li {
+  width: 36px;
+  line-height: 34px;
+  font-size: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #616161;
+}
+
+#blank {
+  width: 97px;
+}
+
+.plaette_choice {
+  display: flex;
+}
+
+#palette_default_color {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 12px;
+  color: #616161;
+}
+
+#palette_default_color > li {
+  width: 87px;
+  height: 34px;
+  line-height: 40px;
+  padding-left: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.palette_choice_color {
+  display: flex;
+  height: 36px;
+}
+
+.palette_choice_color > li {
+  width: 36px;
+  cursor: pointer;
+}

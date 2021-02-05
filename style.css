@@ -58,6 +58,7 @@ body {
 }
 
 .color_code {
+  font-weight: 700;
   padding: 10px;
 }
 
@@ -132,4 +133,13 @@ body {
 .palette_choice_color > li {
   width: 36px;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.palette_choice_color > li:hover {
+  border-radius: 30%;
+}
+
+.active {
+  border-radius: 50%;
 }
